@@ -55,6 +55,21 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+header {
+    display: flexbox;
+}
+header nav{
+    width: 60%;
+    padding: 5% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none black;
+    color: black;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -93,6 +108,12 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+button {
+    border: black solid 1px;
+    background: white;
+    padding: 1% 2%;
+    border-radius: 0%;
 }
 
 .middle-content .boxes {
